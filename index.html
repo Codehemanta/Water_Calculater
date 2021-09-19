@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+<style type="text/css">
+  body{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: #ffffff;
+	}
+.box{
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%,-50%);
+		background: #ffffffb0;
+		width: 345px;
+		height: 520px;    
+		border-radius: 20px;
+		box-shadow: 1px 1px 7px 2px #bfbfbf;
+
+	}
+  .display > input{
+	   width: 310px;
+       height: 150px;    
+       font-size: 30px;
+       color: darkgray;
+       background: #00000000;
+       text-align: right;
+       border: 0;
+       outline: none;
+   }
+   input{    
+   	width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: transparent;
+    border: 1px solid #bdbdbd;
+    outline: none;
+    font-size: 20px;
+    border-radius: 20px;
+    color: black;
+   }
+
+
+.booble{ 
+	top: 210%;
+    left: 50%;
+    border-radius: 30% 25% 47% 25%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 2000px;
+    height: 2000px;
+    background: linear-gradient(45deg, #6ae2ec82, #366efe80);
+    animation: spin 20s linear infinite;
+}
+
+input[type = 'button']{
+	box-shadow: 2px 2px 4px 0px #c7c7c7;
+}
+input[type = 'button']:hover{
+	box-shadow: inset 0px 0px 9px 2px #c7c7c7;
+}
+.result:hover{
+	color: white;
+	background: #ff004b;
+}
+
+
+@keyframes spin {0% {transform: translate(-50%,-50%)rotate(0deg);}100% {transform: translate(-50%,-50%)rotate(360deg);}}
+
+</style>
+<script type="text/javascript">
+	function calculate(result){
+		form.answer.value=form.answer.value+result;
+ }
+</script>
+
+</head>
+<body>
+
+	<div class="booble"></div>
+	<div class="box">
+		<form name="form">
+			<div class="display">
+				<input type="text" name="answer" placeholder="0" >
+			</div>
+			<div class="button">
+				<div class="row">
+					<input type="button" name="btn_7" value="7" onClick="calculate(btn_7.value)" />
+					<input type="button" name="btn_8" value="8" onClick="calculate(btn_8.value)" />
+					<input type="button" name="btn_9" value="9" onClick="calculate(btn_9.value)" >
+					<input type="button" name="add" value="+" onClick="calculate(add.value)">
+				</div>
+				<div class="row">
+					<input type="button" name="btn_4" value="4" onClick="calculate(btn_4.value)">
+					<input type="button" name="btn_5" value="5" onClick="calculate(btn_5.value)">
+					<input type="button" name="btn_6" value="6" onClick="calculate(btn_6.value)">
+					<input type="button" name="sub" value="-" onClick="calculate(sub.value)">
+				</div>
+				<div class="row">
+					<input type="button" name="btn_1" value="1" onClick="calculate(btn_1.value)">
+					<input type="button" name="btn_2" value="2" onClick="calculate(btn_2.value)">
+					<input type="button" name="btn_3" value="3" onClick="calculate(btn_3.value)">
+					<input type="button" name="mul" value="*" onClick="calculate(mul.value)">
+				</div>
+				<div class="row">
+					<input type="button" name="btn_0" value="0" onClick="calculate(btn_0.value)">
+					<input type="button" name="del" value="." onClick="calculate(del.value)">
+					<input type="button" name="dev" value="/" onClick="calculate(dev.value)">
+					<input class="result" type="button" value="=" onClick="answer.value=eval(answer.value)">
+				</div>
+
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>
