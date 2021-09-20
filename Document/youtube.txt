@@ -1,5 +1,65 @@
-Source Code : 
+Title :-----------------------------------------------------
+
+How To Make Water Calculator using HTML CSS & JavaScript | Calculator CSS3
+
+Description :------------------------------------------------------------
+
+Water Calculator using HTML CSS & Javascript | Neumorphism UI Design
+
+
+Neumorphism Water Clock UI Design [HTML] [CSS]
+➤ https://youtu.be/-FLzc77MstY
+
+
+Source Code : https://github.com/thegayen/water_calculator
 Facebook Page : https://www.facebook.com/thegayenofficial
 Instagram : https://www.instagram.com/thegayen
 Twitter : https://twitter.com/thegayen
 Website : https://thegayen.blogspot.com
+
+
+Timestamp 
+00:00 Glass Waler Calculator Design
+00:57 Calculator Code in HTML  
+02:50 Calculator Code in CSS
+07:32 CSS Background Animation / Bubbles 
+08:00 CSS Mirror Animations on Bubbles
+09:31 Calculator Code in JavaScript
+
+
+------------------
+Disclaimer video is for educational purpose only. Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use
+
+
+Keywords :-----------------------------------------------------------------
+
+hemanta gayen
+
+calculator html css javascript 
+
+simple calculator html 
+
+calculator html javascript 
+
+emi calculator html
+
+html js calculator
+
+calculator design html css 
+
+age calculator app tamil
+
+calculator online
+
+calculator tamil
+
+calculator video
+
+calculator java source code
+
+toh calculator code
+
+calculator design in android studio
+
+yagi antenna design calculator
+
